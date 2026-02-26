@@ -4,7 +4,7 @@ import seaborn as sns
 import re
 
 # 1. CSV 파일 불러오기
-file_name = 'result_hbm.csv' 
+file_name = r"C:\Users\euiso\OneDrive\Desktop\DeepLearning\Semiconduct_analysis\Ai_accelerator\result_hbm.csv"
 df = pd.read_csv(file_name)
 
 # --- [추가된 부분] 데이터 전처리: 문자열을 숫자로 변환 ---

@@ -4,7 +4,7 @@ import seaborn as sns
 
 # 1. CSV 파일 불러오기
 # 저장하신 파일명으로 이름을 바꿔주세요.
-file_name = 'result_V1.csv' 
+file_name = r"C:\Users\euiso\OneDrive\Desktop\DeepLearning\Semiconduct_analysis\Ai_accelerator\result_V1.csv"
 df = pd.read_csv(file_name)
 
 # 2. 데이터 확인 (상위 5개)
